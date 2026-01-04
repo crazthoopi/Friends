@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bang bros</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#0b1020" />
+  </head>
+  <body>
+    <header class="site-header neon">
+      <div class="neon-particles" aria-hidden="true"></div>
+      <nav class="top-nav container">
+        <div class="brand"><span class="neon">Bang bros</span></div>
+        <ul class="nav-links">
+          <li><a href="#projects">Friends</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Share</a></li>
+        </ul>
+      </nav>
+
+      <div class="container hero">
+        <div class="hero-content">
+          <h1><span class="neon">Bang bros</span> — Our Stories</h1>
+          <p class="tagline">6 Years of our bromance — a small neon portfolio of our friendship.</p>
+          <div class="hero-actions">
+            <button id="copyLinkBtn" class="btn btn-primary">Copy share link</button>
+            <a class="btn btn-outline" href="#projects">View friends</a>
+            <a class="btn btn-outline" href="https://www.google.com" target="_blank" rel="noopener noreferrer">Open Google</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true"></div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="projects" class="projects">
+        <h2 class="section-title">Friends</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-meta">
+              <div class="avatar">N</div>
+              <div>
+                <h3 class="project-title"><span class="neon-name neon-purple">Nagulan</span></h3>
+                <div class="tags"><span>Care</span> <span>Support</span></div>
+              </div>
+            </div>
+            <p class="project-desc">In our group, you are the friend who truly cares about everyone. You always notice when someone is quiet and make sure no one feels left out.</p>
+            <div class="project-actions">
+              <button class="btn btn-secondary share-btn" data-name="Nagulan">Share</button>
+              <a class="btn btn-outline" href="#contact">Message</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <div class="avatar">J</div>
+              <div>
+                <h3 class="project-title"><span class="neon-name neon-pink">Jayakarthi</span></h3>
+                <div class="tags"><span>Love</span> <span>Warmth</span></div>
+              </div>
+            </div>
+            <p class="project-desc">Your presence makes us feel valued, accepted, and understood. The love you show keeps our friendship strong and fills our group with warmth and happiness.</p>
+            <div class="project-actions">
+              <button class="btn btn-secondary share-btn" data-name="Jayakarthi">Share</button>
+              <a class="btn btn-outline" href="#contact">Message</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <div class="avatar">H</div>
+              <div>
+                <h3 class="project-title"><span class="neon-name neon-cyan">Hariharan</span></h3>
+                <div class="tags"><span>Quiet</span> <span>Loyal</span></div>
+              </div>
+            </div>
+            <p class="project-desc">You may be quiet and introverted, but your presence means a lot to all of us. Your calm nature and silent support give us strength.</p>
+            <div class="project-actions">
+              <button class="btn btn-secondary share-btn" data-name="Hariharan">Share</button>
+              <a class="btn btn-outline" href="#contact">Message</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <div class="avatar">A</div>
+              <div>
+                <h3 class="project-title"><span class="neon-name neon-purple">Abhishek</span></h3>
+                <div class="tags"><span>Loyalty</span> <span>Trust</span></div>
+              </div>
+            </div>
+            <p class="project-desc">You are the friend who defines loyalty. Your honesty, trust, and commitment keep our friendship real and unbreakable.</p>
+            <div class="project-actions">
+              <button class="btn btn-secondary share-btn" data-name="Abhishek">Share</button>
+              <a class="btn btn-outline" href="#contact">Message</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2 class="section-title"></h2>
+        <p></p>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2 class="section-title">Share & Contact</h2>
+        <p>Share this page with your friends using the buttons on each profile or copy the page link directly.</p>
+        <div class="contact-actions">
+          <input id="pageLink" readonly value="" aria-label="Page link" />
+          <button id="copyLinkBtn2" class="btn btn-primary">Copy page link</button>
+          <a class="btn btn-outline" href="https://www.google.com" target="_blank" rel="noopener noreferrer">Open Google</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">Made by Nagulan</div>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
